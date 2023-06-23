@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <p class="headerPara shitTalk"></p>
+    </header>
+    <main>
+      <div class="gameWindow">
+        <div class="compImg">
+          <figure>
+            <img
+              class="compChoiceImg rock"
+              src="img/rockC.jpg"
+              alt="rock"
+              width="200"
+              height="200"
+              loading="lazy" />
+            <img
+              class="compChoiceImg paper"
+              src="img/paperC.jpg"
+              alt="paper"
+              width="200"
+              height="200"
+              loading="lazy" />
+            <img
+              class="compChoiceImg scissors"
+              src="img/scissorsC.jpg"
+              alt="scissors"
+              width="200"
+              height="200"
+              loading="lazy" />
+          </figure>
+        </div>
+        <div class="texWrapper">
+          <div class="totalScore">
+            <p class="total__P sText"></p>
+            <p class="winner sText"></p>
+            <p class="total__C sText"></p>
+          </div>
+          <div class="score">
+            <div class="score__P sText"></div>
+            <div class="score__T sText"></div>
+            <div class="score__C sText"></div>
+          </div>
+        </div>
+        <div class="playerButtons">
+          <div class="playerChoice">
+            <button class="ImgBtn">
+              <img
+                class="playerChoiceImg"
+                id="rock"
+                src="img/rockP.jpg"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy" />
+            </button>
+          </div>
+          <div class="playerChoice">
+            <button class="ImgBtn">
+              <img
+                class="playerChoiceImg"
+                id="paper"
+                src="img/paperP.png"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy" />
+            </button>
+          </div>
+          <div class="playerChoice">
+            <button class="ImgBtn">
+              <img
+                class="playerChoiceImg"
+                id="scissors"
+                src="img/scissorsP.jpg"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="gameOverP">
+        <figure>
+          <img
+            class="gameOverImg"
+            src="img/launchingMissiles.jpg"
+            alt=""
+            width="300"
+            height="440"
+            loading="lazy" />
+        </figure>
+        <p class="gameOverParaP"></p>
+        <button class="gameOverBtn">Go again</button>
+      </div>
+      <div class="gameOverC">
+        <figure>
+          <img
+            class="gameOverImg"
+            src="img/peace.webp"
+            alt=""
+            width="300"
+            height="440"
+            loading="lazy" />
+        </figure>
+        <p class="gameOverParaC"></p>
+        <button class="gameOverBtn">Go again</button>
+      </div>
+    </main>
+    <footer>
+      <p>Made by DarkTimes 2023</p>
+    </footer>
+  </body>
+</html>
